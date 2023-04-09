@@ -1,0 +1,17 @@
+﻿<title>@ViewData["Title"] - Post</title>
+<div id="app">
+    <h2>Index</h2>
+    <p>{{ message }}</p>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello from our view template'
+        }
+    })
+}
+
+</script>
